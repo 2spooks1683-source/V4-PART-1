@@ -105,8 +105,18 @@ uiGrid.SortOrder = Enum.SortOrder.LayoutOrder
 uiGrid.Parent = scrollFrame
 
 local buttonList = {
-	"Buton 1", "Buton 2", "Buton 3", "Buton 4", "Buton 5", "Buton 6",
-	"Buton 7", "Buton 8", "Buton 9", "Buton 10", "Buton 11", "Buton 12"
+	"Spooky Scary Skeletons Remix", "Electro sp00k", "ME ME ME! short", "Mario Exe", "1x3x5x6 Theme", "1x3x5x6 Theme 2",
+	"Gothic Zero Project", "FNAF", "Winds Of Fjords", "Wonga", "c00lkidd Allah", "Allah",
+	"k00pkidd's c00l Music", "PINGU ZONE", "Pingu Zone EARRAPE", "Biji Dalin Nasheed", "1x1x1x1 Laugh", "Golden Freddy Sound",
+	"Lvbelc5 EARRAPE", "Lvbelc5", "Noel Dayı VS Eminem", "Oyun Portal Rap Song", "I. M. Meen SFX", "Shedletsky Laugh",
+	"Bilmem Ki", "I. M. Meen Theme", "Mario Exe 2", "The Great Stragtegy", "MLG", "TAKLAYA GELDİK SARP!",
+	"Wont Stop Us", "Bypassed Sound", "Bodypartz", "Better Of Alone But Different", "OOFstatic", "Spooky Dubstep",
+	"OMFG Hello", "You Get Nothing Remix", "Opening Theme 0.5", "So Epic Dubstep", "Sanic", "Gangsta Paradise Loop",
+	"Spooky Scary Skeletons OG", "Sparta Remix", "Tubers93 SFX", "k00pkidd SFX", "YOU WE BEEN TROLLED", "Nyan Cat",
+	"Monster Mash", "Shiawase", "Madness", "Megalovania Undertale", "Tri Poloski", "Stadium Rave A",
+	"Epic Sax Guy", "Ultimate MLG", "Train honk with and circuis honk", "Lonely At The Home", "Rockfeller", "Moskau",
+	"Creepy Yoshie Theme", "Dubstep Gun", "Distraction Dance", "Roblox Classic Horror Theme", "Idk this", "SpongeBob Pirate Rap",
+	"Çağatay Akman", "Idk Turkish song", "blue2sp00ks Theme V3", "Stop Sounds", "Distort", "Reverb"
 }
 
 local function createButton(name)
