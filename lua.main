@@ -4,7 +4,7 @@ local player = Players.LocalPlayer or Players.PlayerAdded:Wait()
 local playerGui = player:WaitForChild("PlayerGui")
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "AdminMusicPanel"
+screenGui.Name = "ServerDestroyPanel"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = playerGui
 
@@ -28,7 +28,7 @@ local titleLabel = Instance.new("TextLabel")
 titleLabel.Size = UDim2.new(1, -140, 1, 0)
 titleLabel.Position = UDim2.new(0, 70, 0, 0)
 titleLabel.BackgroundTransparency = 1
-titleLabel.Text = "Panel"
+titleLabel.Text = "Server Destruction"
 titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 titleLabel.Font = Enum.Font.SourceSansBold
 titleLabel.TextSize = 26
@@ -116,7 +116,9 @@ local buttonList = {
 	"Monster Mash", "Shiawase", "Madness", "Megalovania Undertale", "Tri Poloski", "Stadium Rave A",
 	"Epic Sax Guy", "Ultimate MLG", "Train honk with and circuis honk", "Lonely At The Home", "Rockfeller", "Moskau",
 	"Creepy Yoshie Theme", "Dubstep Gun", "Distraction Dance", "Roblox Classic Horror Theme", "Idk this", "SpongeBob Pirate Rap",
-	"Çağatay Akman", "Idk Turkish song", "blue2sp00ks Theme V3", "Stop Sounds", "Distort", "Reverb"
+	"Çağatay Akman", "Idk Turkish song", "blue2sp00ks Theme V3", "Stop Sounds", "Distort", "Reverb",
+	"Nameless Admin", "Infinite Yield", "DarkX Executor", "OPadmin [DELETED]", "BillboardGui", "Audio Panel V2",
+	"Time Controller Gui", "Global Message Gui", "Kill Gui", "Crash Gui", "Project Ligma", "RC7"
 }
 
 local function createButton(name)
