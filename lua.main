@@ -147,3 +147,8 @@ end
 for _, name in ipairs(buttonList) do 
 	createButton(name) 
 end
+
+scrollFrame:FindFirstChild("Color Spam").MouseButton1Click:Connect(function() for _, nesne in ipairs(workspace:GetDescendants()) do if nesne:IsA("BasePart") then nesne.Color = Color3.fromRGB(math.random(0, 255), math.random(0, 255), math.random(0, 255)) end end end)
+scrollFrame:FindFirstChild("Fog Night").MouseButton1Click:Connect(function() game.Lighting.ClockTime = 0; game.Lighting.FogColor = Color3.new(1, 0, 0); game.Lighting.FogEnd = 500; game.Lighting.OutdoorAmbient = Color3.new(1, 0, 0) end)
+scrollFrame:FindFirstChild("Ball Rain").MouseButton1Click:Connect(function() local player = game.Players.LocalPlayer; for i = 1, 100 do if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then local b = Instance.new("Part"); b.Shape = Enum.PartType.Ball; b.Size = Vector3.new(70, 70, 70); b.Position = player.Character.HumanoidRootPart.Position + Vector3.new(math.random(-350, 350), 1130, math.random(-350, 350)); b.BrickColor = BrickColor.random(); b.Parent = workspace end; task.wait(0.05) end end)
+scrollFrame:FindFirstChild("Particles").MouseButton1Click:Connect(function() for _, v in pairs(Workspace:GetDescendants()) do if v:IsA("BasePart") then local p = Instance.new("ParticleEmitter", v); p.Texture = "rbxassetid://128430398966048"; p.Rate = 50 end end end)
